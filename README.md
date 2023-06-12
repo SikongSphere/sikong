@@ -1,4 +1,4 @@
-# sikong
+# SiKong（司空）建筑领域开源大模型
 
 #### 介绍
 开源建筑行业大模型
@@ -9,9 +9,21 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  创建`conda`虚拟环境
+```shell
+conda create -n sikong python=3.9
+conda activate sikong
+```
+2.  安装`LMflow`仓库
+```shell
+./install_repo.sh
+```
+3.  启动服务
+```shell
+./run_app.sh
+```
+启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
+
 
 #### 使用说明
 
