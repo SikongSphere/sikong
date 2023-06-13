@@ -21,7 +21,7 @@ conda activate sikong
 ```
 启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
 
-<img src="./img/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
+<img src="assets/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
 
 
 
