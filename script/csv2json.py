@@ -1,0 +1,45 @@
+import json
+import pandas as pd
+from argparse import ArgumentParser
+from tqdm import tqdm
+
+"""
+A script to convert csv file to json file.
+Example
+>>>
+python .\script\csv2json.py --csv .\label_data\example.csv --json .\label_data\example.json
+"""
+
+def parse():
+
+    parser = ArgumentParser()
+    parser.add_argument("--csv", type=str, help="Path to your csv file.")
+    parser.add_argument("--json", type=str, help="Path to your json file.")
+
+    return parser.parse_args()
+
+def converter(csv_file, json_file):
+
+    default_dict = {
+        "type": "text2text",
+        "instance": []
+    }
+
+    data = pd.read_csv(csv_file, encoding="gbk")
+
+
+    for idx, row in tqdm(data.iterrows()):
+        instance_dict = {
+            "input": row["Question"],
+            "output": row["Answer"]
+        }
+        default_dict["instance"].append(instance_dict)
+
+    with open(json_file, mode="w", encoding="utf_8_sig") as f:
+        js_obj = json.dumps(default_dict, ensure_ascii=False, indent=4)
+        f.write(js_obj)
+
+
+if __name__ == '__main__':
+    parser = parse()
+    converter(parser.csv, parser.json)

@@ -6,7 +6,22 @@
 
 
 
-<img src="./img/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
+1.  创建`conda`虚拟环境
+```shell
+conda create -n sikong python=3.9
+conda activate sikong
+```
+2.  安装`LMflow`仓库
+```shell
+./install_repo.sh
+```
+3.  启动服务
+```shell
+./run_app.sh
+```
+启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
+
+<img src="assets/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
 
 
 
