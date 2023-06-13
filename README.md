@@ -1,13 +1,10 @@
-# SiKong（司空）建筑领域开源大模型
+[**中文**](./README.md) | [**English**](./README_en.md)
 
-#### 介绍
-开源建筑行业大模型
+# 司空：基于中文建筑行业知识的LLaMA微调大模型
 
-#### 软件架构
-软件架构说明
+### SiKong：Tuning LLaMA Model With Chinese Architecture Instructions
 
 
-#### 安装教程
 
 1.  创建`conda`虚拟环境
 ```shell
@@ -24,26 +21,107 @@ conda activate sikong
 ```
 启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
 
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+<img src="./img/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+
+本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在建筑领域的问答效果。
+
+目前我们只开放针对基础建筑行业知识的模型参数。在未来，我们计划添加更多领域的建筑专业数据集（中式古建筑、建筑行业规范和标准、外国古建筑、建筑结构等），针对不同建筑领域和建筑类型训练模型。
+
+## 1. 更新日志
+
+
+
+## 2. A Quick Start
+
+
+
+## 3. 模型下载
+
+
+
+## 4. Infer
+
+
+
+## 5. 数据集构建
+
+
+
+## 6. Finetune
+
+
+
+## 7.训练细节
+
+
+
+### 7.1. 计算资源需求
+
+
+
+### 7.2. 实验过程
+
+
+
+## 8. 模型效果对比
+
+| 测试输入 | Llama输出 | Alpaca输出 | SiKong司空输出 |
+| :------- | :-------- | :--------- | :------------- |
+|          |           |            |                |
+|          |           |            |                |
+|          |           |            |                |
+
+
+
+## 9. 常见问题
+
+1. Q：
+
+   A：
+
+2. Q：
+
+   A：
+
+3. Q：
+
+   A：
+
+4. Q：
+
+   A：
+
+5. Q：
+
+   A：
+
+## 10. 项目参与者
+
+本项目由司空学社的刘钧文、梁超完成。
+
+## 11. Star History
+
+
+
+## 12. 致谢
+
+- 感谢王非先生对本项目的资金支持。
+
+## 13. 免责声明
+
+本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。本项目数据集绝大部分由模型生成，即使符合某些建筑学事实，也不能被用作实际建筑设计的依据。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
+
+## 14. Citation
+
+如果你使用了本项目的数据或者代码，请声明引用
+
+
+
+## 15. 合作单位
+
+
+
