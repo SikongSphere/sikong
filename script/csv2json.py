@@ -22,7 +22,7 @@ def converter(csv_file, json_file):
 
     default_dict = {
         "type": "text2text",
-        "instance": []
+        "instances": []
     }
 
     data = pd.read_csv(csv_file, encoding="gbk")
