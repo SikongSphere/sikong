@@ -1,2 +1,3 @@
 .idea
-repo/LMFlow
+model/*
+!model/.keep
