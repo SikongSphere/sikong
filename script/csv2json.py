@@ -22,7 +22,7 @@ def converter(csv_file, json_file):
 
     default_dict = {
         "type": "text2text",
-        "instance": []
+        "instances": []
     }
 
     data = pd.read_csv(csv_file, encoding="gbk")
@@ -33,9 +33,9 @@ def converter(csv_file, json_file):
             "input": row["Question"],
             "output": row["Answer"]
         }
-        default_dict["instance"].append(instance_dict)
+        default_dict["instances"].append(instance_dict)
 
-    with open(json_file, mode="w", encoding="utf_8_sig") as f:
+    with open(json_file, mode="w", encoding="utf-8") as f:
         js_obj = json.dumps(default_dict, ensure_ascii=False, indent=4)
         f.write(js_obj)
 
