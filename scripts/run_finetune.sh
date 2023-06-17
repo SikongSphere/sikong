@@ -10,15 +10,15 @@ fi
 
 exp_id=finetune
 project_dir=$(cd "$(dirname $0)"/..; pwd)
-output_dir=${project_dir}/output_models/${exp_id}
+output_dir=${project_dir}/model/${exp_id}
 log_dir=${project_dir}/log/${exp_id}
 
-dataset_path=${project_dir}/data/arich/train
+dataset_path=${project_dir}/data/archi
 
 mkdir -p ${output_dir} ${log_dir}
 
 deepspeed ${deepspeed_args} \
-  examples/finetune.py \
+  src/finetune.py \
     --model_name_or_path model/sikong-alpaca-7b-chinese \
     --dataset_path ${dataset_path} \
     --output_dir ${output_dir} --overwrite_output_dir \

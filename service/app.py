@@ -10,10 +10,8 @@ from dataclasses import dataclass, field
 from transformers import HfArgumentParser
 from typing import Optional
 
-from lmflow.datasets.dataset import Dataset
-from lmflow.pipeline.auto_pipeline import AutoPipeline
 from lmflow.models.auto_model import AutoModel
-from lmflow.args import ModelArguments, DatasetArguments, AutoArguments
+from lmflow.args import ModelArguments
 
 WINDOW_LENGTH = 512
 
@@ -45,7 +43,7 @@ model_args, app_args = (
 
 app = Flask(__name__)
 CORS(app)
-ds_config_path = "./examples/ds_config.json"
+ds_config_path = "configs/ds_config.json"
 with open(ds_config_path, "r") as f:
     ds_config = json.load(f)
 
