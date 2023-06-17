@@ -91,8 +91,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 可在`run_finetune.sh`文件中更改具体参数，以符合具体需求。
 
 ## 7.训练细节
-To be continued...
-
+![train](assets/train.png)
 
 ### 7.1. 计算资源需求
 `sikong`训练资源:
