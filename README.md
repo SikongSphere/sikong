@@ -37,6 +37,7 @@ git clone https://gitee.com/sikongsphere/sikong.git
 请确保本地已经安装`conda`且可用， 并根据如下命令创建环境
 ```shell
 conda env create -f environment.yaml
+conda activate sikong
 ```
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
