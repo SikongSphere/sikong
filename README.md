@@ -1,8 +1,8 @@
 [**中文**](./README.md) | [**English**](./README_en.md)
 
-# 司空：基于中文建筑行业知识的LLaMA微调大模型
+# 司空：基于中文建筑行业知识的LLaMA和Alpaca微调大模型
 
-### SiKong：Tuning LLaMA Model With Chinese Architecture Instructions
+### SiKong：Tuning LLaMA and Alpaca Model With Chinese Architecture Instructions
 
 
 
@@ -22,49 +22,84 @@
 
 ## 2. A Quick Start
 
-1.  创建`conda`虚拟环境
+1.  本地克隆`sikong`项目仓库
 
 ```shell
-conda create -n sikong python=3.9
-conda activate sikong
+# github 仓库
+git clone https://github.com/SikongSphere/sikong.git
+
+# gitee 仓库
+git clone https://gitee.com/sikongsphere/sikong.git
 ```
 
-2.  安装`LMflow`仓库
+2.  创建虚拟环境并安装第三方库
 
+请确保本地已经安装`conda`且可用， 并根据如下命令创建环境
 ```shell
-./install_repo.sh
+conda env create -f environment.yaml
 ```
 
-3.  启动服务
+3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
 
+已进行微调的模型：
+ - [sikong-llama-7b-chinese](https://huggingface.co/SikongSphere/sikong-llama-7b-chinese/tree/main)
+ - [sikong-alpaca-7b-chinese](https://huggingface.co/SikongSphere/sikong-alpaca-7b-chinese/tree/main)
 ```shell
-./run_app.sh
+cd model
+
+# Make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/SikongSphere/sikong-llama-7b-chinese
+
+# if you want to clone without large files – just their pointers
+# prepend your git clone with the following env var:
+GIT_LFS_SKIP_SMUDGE=1
 ```
 
-启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
+4. 启动聊天界面
+```shell
+./scripts/run_app.sh
+```
 
-## 3. 模型下载
-
-
-
-## 4. Infer
-
+启动服务后，可以打开`127.0.0.1:6006`查看聊天界面。若想替换模型，可以在`run_app.sh`中更改模型的路径。
 
 
 ## 5. 数据集构建
-
-
+`sikong`建筑领域大模型对于输入数据的要求格式如下所示：
+```json
+{
+    "type": "text2text",
+    "instance": [
+        {
+            "input": "建筑艺术创作中的核心问题是什么？",
+            "output": "建筑的空间与实体，是对立统一的两个方面，抓住它并认真地去剖析，运用一定的构图技法把它解决好，则是建筑艺术创作中非常重要的核心问题。"
+        }
+    ]
+}
+```
+为方便用户录入数据并转换为目标`json`格式，我们提供了格式转换的脚本，其位置位于`scripts/data_preprocess/csv2json.py`，具体用法为：
+```python
+python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/example.json
+```
+需要注意的是，在转换`json`数据后，需要利用`script/add_end_mark.py`对其添加停用词。
 
 ## 6. Finetune
-
-
+如果用户需要对模型进行微调，可以使用如下命令：
+```shell
+./scripts/run_finetune.sh
+```
+可在`run_finetune.sh`文件中更改具体参数，以符合具体需求。
 
 ## 7.训练细节
-
+To be continued...
 
 
 ### 7.1. 计算资源需求
+`sikong`训练资源:
 
+ - `GPU`: `A100-PCIE-40GB` * 4卡
+ - `CPU`: `40 vCPU Intel Xeon Processor (Skylake, IBRS)`
+ - `内存` 288GB
 
 
 ### 7.2. 实验过程

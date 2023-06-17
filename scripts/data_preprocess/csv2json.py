@@ -4,10 +4,10 @@ from argparse import ArgumentParser
 from tqdm import tqdm
 
 """
-A script to convert csv file to json file.
+A scripts to convert csv file to json file.
 Example
 >>>
-python .\script\csv2json.py --csv .\label_data\example.csv --json .\label_data\example.json
+python .\scripts\csv2json.py --csv .\label_data\example.csv --json .\label_data\example.json
 """
 
 def parse():
