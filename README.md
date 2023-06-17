@@ -41,19 +41,27 @@ conda env create -f environment.yaml
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
 
+已进行微调的模型：
+ - [sikong-llama-7b-chinese](https://huggingface.co/SikongSphere/sikong-llama-7b-chinese/tree/main)
+ - [sikong-alpaca-7b-chinese](https://huggingface.co/SikongSphere/sikong-alpaca-7b-chinese/tree/main)
 ```shell
 cd model
-GIT_LFS init
-git clone ...
-to be continued.
+
+# Make sure you have git-lfs installed (https://git-lfs.com)
+git lfs install
+git clone https://huggingface.co/SikongSphere/sikong-llama-7b-chinese
+
+# if you want to clone without large files – just their pointers
+# prepend your git clone with the following env var:
+GIT_LFS_SKIP_SMUDGE=1
 ```
 
 4. 启动聊天界面
 ```shell
-./scripts/run_app.py
+./scripts/run_app.sh
 ```
 
-启动服务后，可以打开`127.0.0.1:6006`查看聊天界面
+启动服务后，可以打开`127.0.0.1:6006`查看聊天界面。若想替换模型，可以在`run_app.sh`中更改模型的路径。
 
 
 ## 5. 数据集构建
@@ -71,7 +79,7 @@ to be continued.
 ```
 为方便用户录入数据并转换为目标`json`格式，我们提供了格式转换的脚本，其位置位于`scripts/data_preprocess/csv2json.py`，具体用法为：
 ```python
-python scripts/data_preprocesscsv2json.py --csv data/example.csv --json data/example.json
+python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/example.json
 ```
 需要注意的是，在转换`json`数据后，需要利用`script/add_end_mark.py`对其添加停用词。
 
