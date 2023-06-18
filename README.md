@@ -42,9 +42,8 @@ conda activate sikong
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
 
-<span style="font-weight: bold; font-size: xx-large">
 <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
-Hugging Face</span>
+
 
 
 已进行微调的模型：
