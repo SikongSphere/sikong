@@ -45,6 +45,8 @@ conda activate sikong
 <span style="font-weight: bold; font-size: xx-large">
 <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
 Hugging Face</span>
+
+
 已进行微调的模型：
  - [sikong-llama-7b-chinese](https://huggingface.co/SikongSphere/sikong-llama-7b-chinese/tree/main)
  - [sikong-alpaca-7b-chinese](https://huggingface.co/SikongSphere/sikong-alpaca-7b-chinese/tree/main)
