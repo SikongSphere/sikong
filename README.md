@@ -136,8 +136,8 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
              <td style="font-size: 14px;text-align: center">1.5m</td>
              <td style="font-size: 14px;text-align: center">书架之间通道的最小宽度是0.5厘米，书架与墙体之间通道的最小宽度是0.5厘米。</td>
              <td style="font-size: 14px;text-align: left">
-<img src="assets/perfect.png" width="40" height="40">
-按照《图书馆建筑设计规范》（JGJ 38-2015）中规定，图书馆中书架之间以及书架与墙体之间通道的最小宽度按通道类型划分为以下几种情况：<br />  &nbsp- &nbsp&nbsp主通道中，开架的常用书架间隔不小于1.5m，闭架的常用书架间隔不小于1.2m，不常用书架间隔不小于1m； 次通道中，开架的常用书架间隔不小于1.1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m；<br /> &nbsp- &nbsp&nbsp 档头走道（即靠墙走道）中，开架的常用书架间隔不小于0.7m，闭架的常用书架间隔不小于0.6m，不常用书架间隔不小于0.6m； <br /> &nbsp- &nbsp&nbsp 行道中，开架的常用书架间隔不小于1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m。</td>
+<img src="assets/perfect.png" width="40" height="40"> 
+按照《图书馆建筑设计规范》（JGJ 38-2015）中规定，图书馆中书架之间以及书架与墙体之间通道的最小宽度按通道类型划分为以下几种情况：<br /> 1. 主通道中，开架的常用书架间隔不小于1.5m，闭架的常用书架间隔不小于1.2m，不常用书架间隔不小于1m； <br /> 2.次通道中，开架的常用书架间隔不小于1.1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m；<br /> 3.档头走道（即靠墙走道）中，开架的常用书架间隔不小于0.7m，闭架的常用书架间隔不小于0.6m，不常用书架间隔不小于0.6m； <br /> 4. 行道中，开架的常用书架间隔不小于1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m。</td>
          </tr>
          <tr>
              <td style="font-size: 14px;text-align: center">图书馆中书架之间以及书架与墙体之间通道的最小宽度是多少？</td>
