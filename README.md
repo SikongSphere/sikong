@@ -155,6 +155,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
              <td style="font-size: 14px;text-align: center">......</td>
              <td style="font-size: 14px;text-align: center">......</td>
              <td style="font-size: 14px;text-align: center">......</td>
+             <td style="font-size: 14px;text-align: center">......</td>
          </tr>
 </tbody>
 </table>
