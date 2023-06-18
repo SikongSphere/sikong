@@ -112,54 +112,46 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 8. 模型效果对比
 
+为了展示司空语言大模型的能力，我们展示如下几组测试。
 
- <table>
-     <thead>
-         <tr>
-             <th style="font-size: 14px;text-align: center">测试输入</th>
-             <th style="font-size: 14px;text-align: center">Llama输出</th>
-             <th style="font-size: 14px;text-align: center">Alpaca输出</th>
-             <th style="font-size: 14px;text-align: center">ChatGLM输出</th>
-             <th style="font-size: 14px;text-align: center">SiKong司空输出</th>
-         </tr>
-     </thead>
-<tbody>
-         <tr>
-             <td style="font-size: 14px;text-align: center">请介绍一下变形缝的概念。</td>
-             <td style="font-size: 14px;text-align: center">变形缝是一种可以改变形状的缝。</td>
-             <td style="font-size: 14px;text-align: center">变形缝是一种特殊的缝合技术，它可以将两个物体结合在一起，而不需要使用任何粘合剂。</td>
-             <td style="font-size: 14px;text-align: center">变形缝通常由混凝土或砖石等建筑材料制成，其目的是在地震或自然灾害时，使岩石形成隔离缝，防止相邻的岩石受到更大的破坏。</td>
-             <td style="font-size: 14px;text-align: center">
-<img src="assets/perfect.png" width="40" height="40">
-变形缝是指将建筑物垂直分开的预留缝。由于温度变化、地基不均匀沉降和地震因素的影响，易使建筑物发 生裂缝或破坏，故在设计时应事先将房屋划分成若干个独立的部分，使各部分能自由地变化。</td>
-         </tr>
-         <tr>
-             <td style="font-size: 14px;text-align: center">图书馆中书架之间以及书架与墙体之间通道的最小宽度是多少？</td>
-             <td style="font-size: 14px;text-align: center">1.5m</td>
-             <td style="font-size: 14px;text-align: center">书架之间通道的最小宽度是0.5厘米，书架与墙体之间通道的最小宽度是0.5厘米。</td>
-             <td style="font-size: 14px;text-align: center">图书馆中书架之间以及书架与墙体之间通道的最小宽度取决于不同国家和地区的法规和规定。一般来说，图书馆的书架通道应该保证书籍的流通和检索，因此最小宽度应该能够容纳一个人的步行距离。</td>
-             <td style="font-size: 14px;text-align: left">
-<img src="assets/perfect.png" width="40" height="40"> 
-按照《图书馆建筑设计规范》（JGJ 38-2015）中规定，图书馆中书架之间以及书架与墙体之间通道的最小宽度按通道类型划分为以下几种情况：<br /> 1. 主通道中，开架的常用书架间隔不小于1.5m，闭架的常用书架间隔不小于1.2m，不常用书架间隔不小于1m； <br /> 2.次通道中，开架的常用书架间隔不小于1.1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m；<br /> 3.档头走道（即靠墙走道）中，开架的常用书架间隔不小于0.7m，闭架的常用书架间隔不小于0.6m，不常用书架间隔不小于0.6m； <br /> 4. 行道中，开架的常用书架间隔不小于1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m。</td>
-         </tr>
-         <tr>
-             <td style="font-size: 14px;text-align: center">在中国建筑设计防火规范中，重要公共建筑是什么?</td>
-             <td style="font-size: 14px;text-align: center">“重要公共建筑”指在中国建造的具有特殊社会功能、影响面广、对社会和经济发展有显著作用的建筑。</td>
-             <td style="font-size: 14px;text-align: center">在中国建筑设计防火规范中，重要公共建筑是指一类公共建筑，包括医院、学校、博物馆、图书馆、商场、政治机关、金融机构等，这些建筑的使用功能复杂，人员密集，且具有较高的火灾危险。</td>
-             <td style="font-size: 14px;text-align: center">在中国建筑设计防火规范中，重要公共建筑是指建筑群、大型公共建筑、大型工业建筑、大型公共设施等，其建筑面积大于5000平方米。</td>
-             <td style="font-size: 14px;text-align: left">
-<img src="assets/perfect.png" width="40" height="40">在《建筑设计防火规范》中，重要公共建筑是指发生火灾可能造成重大人员伤亡、财产损失和严重社会影响的公共建筑。</td>
-         </tr>
-         <tr>
-             <td style="font-size: 14px;text-align: center">......</td>
-             <td style="font-size: 14px;text-align: center">......</td>
-             <td style="font-size: 14px;text-align: center">......</td>
-             <td style="font-size: 14px;text-align: center">......</td>
-             <td style="font-size: 14px;text-align: center">......</td>
-         </tr>
-</tbody>
-</table>
+### 8.1 问题一
 
+- 测试输入：
+  - **请介绍一下变形缝的概念。**
+- Llama输出：
+  - 变形缝是一种可以改变形状的缝。
+- Alpaca输出：
+  - 变形缝是一种特殊的缝合技术，它可以将两个物体结合在一起，而不需要使用任何粘合剂。
+- ChatGLM输出：
+  - 变形缝通常由混凝土或砖石等建筑材料制成，其目的是在地震或自然灾害时，使岩石形成隔离缝，防止相邻的岩石受到更大的破坏。
+- SiKong司空输出：
+  - 变形缝是指将建筑物垂直分开的预留缝。由于温度变化、地基不均匀沉降和地震因素的影响，易使建筑物发 生裂缝或破坏，故在设计时应事先将房屋划分成若干个独立的部分，使各部分能自由地变化。
+
+### 8.2 问题二
+
+- 测试输入：
+  - **图书馆中书架之间以及书架与墙体之间通道的最小宽度是多少？**
+- Llama输出：
+  - 1.5m
+- Alpaca输出：
+  - 书架之间通道的最小宽度是0.5厘米，书架与墙体之间通道的最小宽度是0.5厘米。
+- ChatGLM输出：
+  - 图书馆中书架之间以及书架与墙体之间通道的最小宽度取决于不同国家和地区的法规和规定。一般来说，图书馆的书架通道应该保证书籍的流通和检索，因此最小宽度应该能够容纳一个人的步行距离。
+- SiKong司空输出：
+  - 按照《图书馆建筑设计规范》（JGJ 38-2015）中规定，图书馆中书架之间以及书架与墙体之间通道的最小宽度按通道类型划分为以下几种情况： 1. 主通道中，开架的常用书架间隔不小于1.5m，闭架的常用书架间隔不小于1.2m，不常用书架间隔不小于1m；  2.次通道中，开架的常用书架间隔不小于1.1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m； 3.档头走道（即靠墙走道）中，开架的常用书架间隔不小于0.7m，闭架的常用书架间隔不小于0.6m，不常用书架间隔不小于0.6m；  4. 行道中，开架的常用书架间隔不小于1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m。
+
+### 8.3 问题三
+
+- 测试输入：
+  - **在中国建筑设计防火规范中，重要公共建筑是什么?**
+- Llama输出：
+  - “重要公共建筑”指在中国建造的具有特殊社会功能、影响面广、对社会和经济发展有显著作用的建筑。
+- Alpaca输出：
+  - 在中国建筑设计防火规范中，重要公共建筑是指一类公共建筑，包括医院、学校、博物馆、图书馆、商场、政治机关、金融机构等，这些建筑的使用功能复杂，人员密集，且具有较高的火灾危险。
+- ChatGLM输出：
+  - 在中国建筑设计防火规范中，重要公共建筑是指一类公共建筑，包括医院、学校、博物馆、图书馆、商场、政治机关、金融机构等，这些建筑的使用功能复杂，人员密集，且具有较高的火灾危险。
+- SiKong司空输出：
+  - 在《建筑设计防火规范》中，重要公共建筑是指发生火灾可能造成重大人员伤亡、财产损失和严重社会影响的公共建筑。
 
 
 ## 9. 常见问题
@@ -168,9 +160,9 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
    A：若出现这种情况，请对输入句末尾添加`##`并再次输入。
 
-2. Q：
+2. Q：为什么叫做SiKong（司空）
 
-   A：
+   A：因为司空是中国古代的一种官职，主要负责国家的城市建设和水利枢纽建设，同样也是司空学社的命名由来。本大模型采用司空这种称号，其实也是希望能够秉承中国建筑行业的传统。
 
 3. Q：
 
@@ -186,7 +178,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 10. 项目参与者
 
-本项目由司空学社的刘钧文、梁超完成。
+本项目由司空学社的刘钧文、梁超、孙艺玮完成。
 
 ## 11. Star History
 
