@@ -42,6 +42,9 @@ conda activate sikong
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
 
+<span style="font-weight: bold; font-size: xx-large">
+<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+Hugging Face</span>
 已进行微调的模型：
  - [sikong-llama-7b-chinese](https://huggingface.co/SikongSphere/sikong-llama-7b-chinese/tree/main)
  - [sikong-alpaca-7b-chinese](https://huggingface.co/SikongSphere/sikong-alpaca-7b-chinese/tree/main)
@@ -108,19 +111,56 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 8. 模型效果对比
 
-| 测试输入        | Llama输出 | Alpaca输出 | SiKong司空输出 |
-|:------------| :-------- | :--------- | :------------- |
-| 请介绍一下变形缝的概念。|           |            |变形缝是指将建筑物垂直分开的预留缝。由于温度变化、地基不均匀沉降和地震因素的影响，易使建筑物发 生裂缝或破坏，故在设计时应事先将房屋划分成若干个独立的部分，使各部分能自由地变化。               |
-|             |           |            |                |
-|             |           |            |                |
+
+ <table>
+     <thead>
+         <tr>
+             <th style="font-size: 14px;text-align: center">测试输入</th>
+             <th style="font-size: 14px;text-align: center">Llama输出</th>
+             <th style="font-size: 14px;text-align: center">Alpaca输出</th>
+             <th style="font-size: 14px;text-align: center">SiKong司空输出</th>
+         </tr>
+     </thead>
+<tbody>
+         <tr>
+             <td style="font-size: 14px;text-align: center">请介绍一下变形缝的概念。</td>
+             <td style="font-size: 14px;text-align: center">变形缝是一种可以改变形状的缝。</td>
+             <td style="font-size: 14px;text-align: center">变形缝是一种特殊的缝合技术，它可以将两个物体结合在一起，而不需要使用任何粘合剂。</td>
+             <td style="font-size: 14px;text-align: center">
+<img src="assets/perfect.png" width="40" height="40">
+变形缝是指将建筑物垂直分开的预留缝。由于温度变化、地基不均匀沉降和地震因素的影响，易使建筑物发 生裂缝或破坏，故在设计时应事先将房屋划分成若干个独立的部分，使各部分能自由地变化。</td>
+         </tr>
+         <tr>
+             <td style="font-size: 14px;text-align: center">图书馆中书架之间以及书架与墙体之间通道的最小宽度是多少？</td>
+             <td style="font-size: 14px;text-align: center">1.5m</td>
+             <td style="font-size: 14px;text-align: center">书架之间通道的最小宽度是0.5厘米，书架与墙体之间通道的最小宽度是0.5厘米。</td>
+             <td style="font-size: 14px;text-align: left">
+<img src="assets/perfect.png" width="40" height="40">
+按照《图书馆建筑设计规范》（JGJ 38-2015）中规定，图书馆中书架之间以及书架与墙体之间通道的最小宽度按通道类型划分为以下几种情况：<br />  &nbsp- &nbsp&nbsp主通道中，开架的常用书架间隔不小于1.5m，闭架的常用书架间隔不小于1.2m，不常用书架间隔不小于1m； 次通道中，开架的常用书架间隔不小于1.1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m；<br /> &nbsp- &nbsp&nbsp 档头走道（即靠墙走道）中，开架的常用书架间隔不小于0.7m，闭架的常用书架间隔不小于0.6m，不常用书架间隔不小于0.6m； <br /> &nbsp- &nbsp&nbsp 行道中，开架的常用书架间隔不小于1m，闭架的常用书架间隔不小于0.75m，不常用书架间隔不小于0.6m。</td>
+         </tr>
+         <tr>
+             <td style="font-size: 14px;text-align: center">图书馆中书架之间以及书架与墙体之间通道的最小宽度是多少？</td>
+             <td style="font-size: 14px;text-align: center">“重要公共建筑”指在中国建造的具有特殊社会功能、影响面广、对社会和经济发展有显著作用的建筑。</td>
+             <td style="font-size: 14px;text-align: center">在中国建筑设计防火规范中，重要公共建筑是指建筑群、大型公共建筑、大型工业建筑、大型公共设施等，其建筑面积大于5000平方米。</td>
+             <td style="font-size: 14px;text-align: left">
+<img src="assets/perfect.png" width="40" height="40">在《建筑设计防火规范》中，重要公共建筑是指发生火灾可能造成重大人员伤亡、财产损失和严重社会影响的公共建筑。</td>
+         </tr>
+         <tr>
+             <td style="font-size: 14px;text-align: center">......</td>
+             <td style="font-size: 14px;text-align: center">......</td>
+             <td style="font-size: 14px;text-align: center">......</td>
+             <td style="font-size: 14px;text-align: center">......</td>
+         </tr>
+</tbody>
+</table>
 
 
 
 ## 9. 常见问题
 
-1. Q：
+1. Q：为什么在输入后出现模型自问自答的情况？
 
-   A：
+   A：若出现这种情况，请对输入句末尾添加`##`并再次输入。
 
 2. Q：
 
