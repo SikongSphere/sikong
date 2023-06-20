@@ -204,7 +204,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 15. 合作单位
 
-<img src="assets/guodi-tech.png" width="200" height="100">
+<img src="assets/guodi-tech.png" width="300" height="100">
 
 
 
