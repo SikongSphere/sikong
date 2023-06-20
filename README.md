@@ -191,6 +191,11 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 ## 12. 致谢
 
 - 感谢王非先生对本项目的资金支持。
+- 本项目使用了[LMFlow](https://github.com/OptimalScale/LMFlow.git) 与 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) 仓库，在此致谢！
+
+<img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" width="300">
+  
+<img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" width="300">
 
 ## 13. 免责声明
 
