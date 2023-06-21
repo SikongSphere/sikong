@@ -1,4 +1,4 @@
-[**中文**](./README.md) | [**English**](./README_en.md)
+[**中文**](./README.md) | [**English**](./README.en.md)
 
 # 司空：基于中文建筑行业知识的LLaMA和Alpaca微调大模型
 
