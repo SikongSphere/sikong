@@ -4,11 +4,13 @@
 
 
 
-<img src="F:\workspace\sikong\assets\SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
+<div>
+<a href="https://imgse.com/i/pCUwnJg"><img src="https://s1.ax1x.com/2023/06/26/pCUwnJg.png" alt="pCUwnJg.png" border="0" /></a>
+</div>
 
 
 
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 
 This project has open sourced the LLaMA-7B model that has been fine-tuned/instruct-tuned in Chinese architecture. By collecting data sets from the construction industry, we fine-tuned the instructions of LLaMA and improved the Q&A effect of LLaMA in the field of construction.
 
@@ -42,7 +44,9 @@ conda activate sikong
 
 - Download the architectural doman language large model `sikong` hosted on `huggingface`, and place it in the `model` folder.
 
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+<div align="center">
+<a href="https://imgse.com/i/pCUMD1S"><img src="https://s1.ax1x.com/2023/06/26/pCUMD1S.png" alt="pCUMD1S.png" border="0" height="100"/></a>
+</div>
 
 
 
@@ -108,7 +112,8 @@ Specific parameters can be changed in the `run_finetune.sh` file to meet specifi
 
 ## 7. Training Details
 
-![train](F:\workspace\sikong\assets\train.png)
+<a href="https://imgse.com/i/pCUMmwR"><img src="https://s1.ax1x.com/2023/06/26/pCUMmwR.png" alt="pCUMmwR.png" border="0" /></a>
+
 
 ### 7.1. Computing Resource Requirements
 
@@ -206,9 +211,10 @@ This project was completed by Liu Junwen, Liang Chao and Sun Yiwei of Sikong Aca
 - Thanks to Mr. Wang Fei for his financial support for this project.
 - This project uses the warehouses of [LMFlow](https://github.com/OptimalScale/LMFlow.git) and [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) , thanks!
 
-<img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" width="300">
-
-<img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" width="300">
+<div class="imgGroup" align="center">
+  <a href="https://imgse.com/i/pCU0dN8"><img src="https://s1.ax1x.com/2023/06/26/pCU0dN8.png" alt="pCU0dN8.png" border="0" width="300"/></a>
+  <a href="https://imgse.com/i/pCU0w4S"><img src="https://s1.ax1x.com/2023/06/26/pCU0w4S.png" alt="pCU0w4S.png" border="0" width="300"/></a>
+</div>      
 
 ## 13. Disclaimer
 
@@ -220,9 +226,6 @@ If you use the data or code of this project, please declare the reference
 
 
 
-## 15. Co
+## 15. Cooperation Units
 
-<img src="F:\workspace\sikong\assets\guodi-tech.png" width="230" height="70">
-
-
-
+<a href="https://imgse.com/i/pCUMem9"><img src="https://s1.ax1x.com/2023/06/26/pCUMem9.png" alt="pCUMem9.png" border="0" width="230" height="70"/></a>
