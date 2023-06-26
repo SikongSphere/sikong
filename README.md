@@ -13,9 +13,9 @@
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 
-本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在建筑领域的问答效果。
+本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业基础资料，构建建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在中文建筑领域的问答效果。
 
-目前我们只开放针对基础建筑行业知识的模型参数。在未来，我们计划添加更多领域的建筑专业数据集（中式古建筑、建筑行业规范和标准、外国古建筑、建筑结构等），针对不同建筑领域和建筑类型训练模型。
+目前我们只开放针对基础建筑行业知识的模型参数。在未来，我们计划添加更多建筑专业相关领域的数据集（中外古建筑、建筑行业规范和标准、建筑结构、建筑设计原理等），并针对不同建筑领域和建筑类型训练模型。
 
 ## 1. 更新日志
 - Web Demo 体验地址 [sikong](http://region-9.seetacloud.com:33955/)
@@ -212,5 +212,4 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 15. 合作单位
 <a href="https://imgse.com/i/pCUMem9"><img src="https://s1.ax1x.com/2023/06/26/pCUMem9.png" alt="pCUMem9.png" border="0" width="230" height="70"/></a>
-
 
