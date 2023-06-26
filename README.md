@@ -195,8 +195,8 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 - 本项目使用了[LMFlow](https://github.com/OptimalScale/LMFlow.git) 与 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) 仓库，在此致谢！
 
 <div class="imgGroup" align="center">
-  <a href="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png"><img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" alt="LMFlow" border="0"  width=300/></a>
-  <a href="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png"><img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" alt="Chinese LLaMa & Alpaca                                                                                                                                                                " width="300"></a>
+  <a href="https://imgse.com/i/pCU0dN8"><img src="https://s1.ax1x.com/2023/06/26/pCU0dN8.png" alt="pCU0dN8.png" border="0" width="300"/></a>
+  <a href="https://imgse.com/i/pCU0w4S"><img src="https://s1.ax1x.com/2023/06/26/pCU0w4S.png" alt="pCU0w4S.png" border="0" width="300"/></a>
 </div>                                                                                                                              
 
 
