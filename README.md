@@ -5,9 +5,8 @@
 ### SiKong：Tuning LLaMA and Alpaca Model With Chinese Architecture Instructions
 
 
-<div class="imgGroup" style="text-align: center;">
-  <a href="https://imgse.com/i/pCUMVOJ"><img src="https://s1.ax1x.com/2023/06/26/pCUMVOJ.png" alt="pCUMVOJ.png" width=600 style="display: inline-block;"/></a>
-  <a href="https://imgse.com/i/pCUlNJP"><img src="https://s1.ax1x.com/2023/06/26/pCUlNJP.jpg" alt="pCUlNJP.jpg" height=300 style="display: inline-block;"/></a>
+<div>
+<a href="https://imgse.com/i/pCUwnJg"><img src="https://s1.ax1x.com/2023/06/26/pCUwnJg.png" alt="pCUwnJg.png" border="0" /></a>
 </div>
 
 
