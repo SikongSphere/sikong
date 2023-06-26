@@ -5,12 +5,13 @@
 ### SiKong：Tuning LLaMA and Alpaca Model With Chinese Architecture Instructions
 
 
+<div>
+<a href="https://imgse.com/i/pCUwnJg"><img src="https://s1.ax1x.com/2023/06/26/pCUwnJg.png" alt="pCUwnJg.png" border="0" /></a>
+</div>
 
-<img src="assets/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
 
 
-
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 
 本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在建筑领域的问答效果。
 
@@ -41,9 +42,9 @@ conda activate sikong
 ```
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
-
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
-
+<div align="center">
+<a href="https://imgse.com/i/pCUMD1S"><img src="https://s1.ax1x.com/2023/06/26/pCUMD1S.png" alt="pCUMD1S.png" border="0" style="zoom:30%;"/></a>
+</div>
 
 
 已进行微调的模型：
@@ -96,7 +97,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 可在`run_finetune.sh`文件中更改具体参数，以符合具体需求。
 
 ## 7.训练细节
-![train](assets/train.png)
+<a href="https://imgse.com/i/pCUMmwR"><img src="https://s1.ax1x.com/2023/06/26/pCUMmwR.png" alt="pCUMmwR.png" border="0" /></a>
 
 ### 7.1. 计算资源需求
 `sikong`训练资源:
@@ -193,9 +194,11 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 - 感谢王非先生对本项目的资金支持。
 - 本项目使用了[LMFlow](https://github.com/OptimalScale/LMFlow.git) 与 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) 仓库，在此致谢！
 
-<img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" width="300">
-  
-<img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" width="300">
+<div class="imgGroup" align="center">
+  <a href="https://imgse.com/i/pCU0dN8"><img src="https://s1.ax1x.com/2023/06/26/pCU0dN8.png" alt="pCU0dN8.png" border="0" width="300"/></a>
+  <a href="https://imgse.com/i/pCU0w4S"><img src="https://s1.ax1x.com/2023/06/26/pCU0w4S.png" alt="pCU0w4S.png" border="0" width="300"/></a>
+</div>                                                                                                                              
+
 
 ## 13. 免责声明
 
@@ -208,8 +211,6 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 
 ## 15. 合作单位
-
-<img src="assets/guodi-tech.png" width="230" height="70">
-
+<a href="https://imgse.com/i/pCUMem9"><img src="https://s1.ax1x.com/2023/06/26/pCUMem9.png" alt="pCUMem9.png" border="0" width="230" height="70"/></a>
 
 
