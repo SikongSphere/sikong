@@ -5,9 +5,11 @@
 ### SiKong：Tuning LLaMA and Alpaca Model With Chinese Architecture Instructions
 
 
+<div class="imgGroup" align="center">
+  <a href="https://imgse.com/i/pCUMVOJ"><img src="https://s1.ax1x.com/2023/06/26/pCUMVOJ.png" alt="pCUMVOJ.png" border="0"  width=600/></a>
+  <a href="https://imgse.com/i/pCUlNJP"><img src="https://s1.ax1x.com/2023/06/26/pCUlNJP.jpg" alt="pCUlNJP.jpg" border="0"  height=400/></a>
+</div>
 
-<a href="https://imgse.com/i/pCUMVOJ"><img src="https://s1.ax1x.com/2023/06/26/pCUMVOJ.png" alt="pCUMVOJ.png" border="0" style="zoom:30%;"/></a>
-<a href="https://imgse.com/i/pCUlNJP"><img src="https://s1.ax1x.com/2023/06/26/pCUlNJP.jpg" alt="pCUlNJP.jpg" border="0" style="zoom:20%;"/></a>
 
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
@@ -41,9 +43,9 @@ conda activate sikong
 ```
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
-
+<div align="center">
 <a href="https://imgse.com/i/pCUMD1S"><img src="https://s1.ax1x.com/2023/06/26/pCUMD1S.png" alt="pCUMD1S.png" border="0" style="zoom:30%;"/></a>
-
+</div>
 
 
 已进行微调的模型：
@@ -193,9 +195,11 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 - 感谢王非先生对本项目的资金支持。
 - 本项目使用了[LMFlow](https://github.com/OptimalScale/LMFlow.git) 与 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) 仓库，在此致谢！
 
-<img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" width="300">
-  
-<img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" width="300">
+<div class="imgGroup" align="center">
+  <a href="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png"><img src="https://github.com/OptimalScale/LMFlow/raw/main/assets/logo.png" alt="LMFlow" border="0"  width=300/></a>
+  <a href="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png"><img src="https://github.com/ymcui/Chinese-LLaMA-Alpaca/raw/main/pics/banner.png" alt="Chinese LLaMa & Alpaca                                                                                                                                                                " width="300"></a>
+</div>                                                                                                                              
+
 
 ## 13. 免责声明
 
