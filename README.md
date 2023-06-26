@@ -6,8 +6,8 @@
 
 
 
-<a href="https://imgse.com/i/pCUMVOJ"><img src="https://s1.ax1x.com/2023/06/26/pCUMVOJ.png" alt="pCUMVOJ.png" border="0" style="zoom:40%;"/></a>
-<a href="https://imgse.com/i/pCUlNJP"><img src="https://s1.ax1x.com/2023/06/26/pCUlNJP.jpg" alt="pCUlNJP.jpg" border="0" style="zoom:40%;"/></a>
+<a href="https://imgse.com/i/pCUMVOJ"><img src="https://s1.ax1x.com/2023/06/26/pCUMVOJ.png" alt="pCUMVOJ.png" border="0" style="zoom:30%;"/></a>
+<a href="https://imgse.com/i/pCUlNJP"><img src="https://s1.ax1x.com/2023/06/26/pCUlNJP.jpg" alt="pCUlNJP.jpg" border="0" style="zoom:20%;"/></a>
 
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
