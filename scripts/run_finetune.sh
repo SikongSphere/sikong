@@ -12,7 +12,6 @@ exp_id=finetune
 project_dir=$(cd "$(dirname $0)"/..; pwd)
 output_dir=${project_dir}/model/${exp_id}
 log_dir=${project_dir}/log/${exp_id}
-
 dataset_path=${project_dir}/data/archi
 
 mkdir -p ${output_dir} ${log_dir}
