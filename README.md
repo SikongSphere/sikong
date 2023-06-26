@@ -99,6 +99,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 ## 7.训练细节
 <a href="https://imgse.com/i/pCUMmwR"><img src="https://s1.ax1x.com/2023/06/26/pCUMmwR.png" alt="pCUMmwR.png" border="0" /></a>
 
+其中具体的训练细节已经上传至`wandb`，通过点击[此处](https://api.wandb.ai/links/sikongsphere/tws3k5em)查看训练详情。
 ### 7.1. 计算资源需求
 `sikong`训练资源:
 
@@ -165,21 +166,21 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
    A：若出现这种情况，请对输入句末尾添加`##`并再次输入。
 
+
 2. Q：为什么叫做SiKong（司空）
 
    A：因为司空是中国古代的一种官职，主要负责国家的城市建设和水利枢纽建设，同样也是司空学社的命名由来。本大模型采用司空这种称号，其实也是希望能够秉承中国建筑行业的传统。
 
-3. Q：
 
-   A：
+3. Q：执行`sh`文件时出现`/bin/bash^M: bad interpreter: No such file or directory`的报错该怎么处理？
 
-4. Q：
+   A：在`Linux`平台上执行`sed -i "s/\r//" xxx.sh`，再重新运行。其中，`xxx.sh`表示对应的文件。
 
-   A：
 
-5. Q：
+4. Q：训练数据主要包括哪些？
 
-   A：
+   A：`sikong`所涉及的训练数据主要包括`《中国建筑设计防火规范》`、`《建筑概论》`等标准文件。
+
 
 ## 10. 项目参与者
 
