@@ -6,11 +6,11 @@
 
 
 
-<img src="assets/SikongSphere-Logo.png" alt="SikongSphere" style="zoom:40%;" />
+<img src="https://imgse.com/i/pCUMVOJ" alt="SikongSphere" style="zoom:40%;" />
+<img src="https://imgse.com/i/pCUlNJP" alt="sikong-logo" style="zoom: 40%;" />
 
 
-
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 
 本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在建筑领域的问答效果。
 
@@ -42,7 +42,7 @@ conda activate sikong
 
 3.  下载托管在`huggingface`的建筑领域语言大模型`sikong`，并放置在`model`文件夹内
 
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg">
+<img src="https://imgse.com/i/pCUMem9" alt="huggingface">
 
 
 
@@ -209,7 +209,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 15. 合作单位
 
-<img src="assets/guodi-tech.png" width="230" height="70">
+<img src="https://imgse.com/i/pCUMem9" width="230" height="70">
 
 
 
