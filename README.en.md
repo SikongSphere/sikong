@@ -204,6 +204,8 @@ This project was completed by Liu Junwen, Liang Chao and Sun Yiwei of Sikong Aca
 
 ## 11. Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=SikongSphere/sikong&type=Date)](https://star-history.com/#SikongSphere/sikong&Date)
+
 
 
 ## 12. Thanking

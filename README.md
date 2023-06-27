@@ -188,6 +188,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 11. Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=SikongSphere/sikong&type=Date)](https://star-history.com/#SikongSphere/sikong&Date)
 
 
 ## 12. 致谢
