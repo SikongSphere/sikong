@@ -12,6 +12,8 @@
 
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+<a href='https://gitee.com/sikongsphere/sikong/stargazers'><img src='https://gitee.com/sikongsphere/sikong/badge/star.svg?theme=dark' alt='star'></img></a>
+<a href='https://github.com/sikongsphere/sikong/stargazers'><img src="https://img.shields.io/github/stars/sikongsphere/sikong.svg?style=social&label=Stars"></img></a>
 
 本项目开源了经过中文建筑学指令精调/指令微调（Instruct-tuning）的LLaMA-7B模型。我们通过采集建筑行业基础资料，构建建筑行业数据集，对LLaMA进行了指令微调，提高了LLaMA在中文建筑领域的问答效果。
 

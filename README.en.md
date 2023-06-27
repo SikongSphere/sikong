@@ -11,6 +11,8 @@
 
 
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE) ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+<a href='https://gitee.com/sikongsphere/sikong/stargazers'><img src='https://gitee.com/sikongsphere/sikong/badge/star.svg?theme=dark' alt='star'></img></a>
+<a href='https://github.com/sikongsphere/sikong/stargazers'><img src="https://img.shields.io/github/stars/sikongsphere/sikong.svg?style=social&label=Stars"></img></a>
 
 This project has open sourced the LLaMA-7B model that has been fine-tuned/instruct-tuned in Chinese architecture. By collecting  basic information form the construction industry and construct the datasets, we fine-tuned the instructions of LLaMA and improved the Q&A effect of LLaMA in the field of construction in Chinese.
 
