@@ -188,17 +188,13 @@ In order to demonstrate the capabilities of the Sikong language large model, we 
 
    A：Because Sikong is an official position in ancient China, it is mainly responsible for the country's urban construction and water conservancy project construction, which is also the origin of the name of Sikong Academy. This large model adopts the title of Sikong, in fact, it hopes to inherit the tradition of the Chinese construction industry.
 
-3. Q：
+3. Q：What should I do if there is an error message `/bin/bash^M: bad interpreter: No such file or directory`when executing file `sh`?
 
-   A：
+   A：Execute `sed -i "s/\r//" xxx.sh ` on the `Linux` platform and run it again. The '`xxx.sh`' represents the corresponding file.
 
-4. Q：
+4. Q：What are the main data used for training?
 
-   A：
-
-5. Q：
-
-   A：
+   A：The training data involved in `sikong` mainly includes standard documents such as the `《中国建筑设计防火规范》` and `《建筑概论》`.
 
 ## 10. Project Participants
 
