@@ -228,4 +228,6 @@ If you use the data or code of this project, please declare the reference
 
 ## 15. Cooperation Units
 
-<a href="https://imgse.com/i/pCUMem9"><img src="https://s1.ax1x.com/2023/06/26/pCUMem9.png" alt="pCUMem9.png" border="0" width="230" height="70"/></a>
+<div align="center">
+  <a href="https://imgse.com/i/pCwP078"><img src="https://s1.ax1x.com/2023/06/28/pCwP078.png" alt="pCwP078.png" border="0" /></a>
+</div>
