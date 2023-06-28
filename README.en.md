@@ -198,7 +198,7 @@ In order to demonstrate the capabilities of the Sikong language large model, we 
 
 ## 10. Project Participants
 
-This project was completed by Liu Junwen, Liang Chao, Wang Yizhuo, Sun Yiwei, Dong Guanglong, Li Yinghan, Jia Yiding, Wang Haocheng, Hou Zhanmin, He Yiwen and Wu Jin of Sikong Academy.
+This project was completed by Liu Junwen, Liang Chao, Wang Yizhuo, Sun Yiwei, Dong Guanglong, Li Yinghan, Jia Yiding, Wang Haocheng, Hou Zhanmin, He Yiwen, Wu Jin and Ma Ying of Sikong Academy.
 
 ## 11. Star History
 
