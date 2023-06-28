@@ -186,7 +186,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 10. 项目参与者
 
-本项目由司空学社的刘钧文、梁超、孙艺玮完成。
+本项目由司空学社的刘钧文、梁超、王屹卓、孙艺玮、董广龙、李英汉、贾一丁、王浩程、侯占民、何伊雯、武晋等完成。
 
 ## 11. Star History
 
