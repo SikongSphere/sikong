@@ -21,6 +21,10 @@
 
 ## 1. 更新日志
 - Web Demo 体验地址 [sikong](http://region-9.seetacloud.com:33955/)
+- [2023/07/04]司空SiKong 中文建筑行业大模型开源发布。
+- [2023/07/08]增加了基于中文Alpaca大模型进行指令微调的模型发布。
+- [2023/07/11]增加了基于LLaMA和中文建筑规范进行指令微调的模型发布。
+- [2023/07/15]增加了基于LLaMA和中文建筑资料集进行指令微调的模型发布。
 
 
 ## 2. A Quick Start
@@ -195,7 +199,7 @@ python scripts/data_preprocess csv2json.py --csv data/example.csv --json data/ex
 
 ## 12. 致谢
 
-- 感谢王非先生对本项目的资金支持。
+- 感谢王非先生、路明女士对本项目的资金支持。
 - 本项目使用了[LMFlow](https://github.com/OptimalScale/LMFlow.git) 与 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) 仓库，在此致谢！
 
 <div class="imgGroup" align="center">

@@ -21,6 +21,10 @@ Currently we only open model parameters for basic construction industry knowledg
 ## 1. Update Log
 
 - Web Demo Experience Address: [sikong](http://region-9.seetacloud.com:33955/)
+- SiKong——Open source release of large models in the Chinese construction industry.
+- Published a model that adds instruction fine-tuning based on the Chinese Alpaca large language model.
+- Published a model that adds instruction fine-tuning based on LLaMA and Chinese Building code.
+- Published a model that adds instruction fine-tuning based on LLaMA and Chinese Architectural Data Set.
 
 
 ## 2. A Quick Start
@@ -208,7 +212,7 @@ This project was completed by Liu Junwen, Liang Chao, Wang Yizhuo, Sun Yiwei, Do
 
 ## 12. Thanking
 
-- Thanks to Mr. Wang Fei for his financial support for this project.
+- Thanks to Mr. Wang Fei and Ms. Lu Ming for their financial support for this project.
 - This project uses the warehouses of [LMFlow](https://github.com/OptimalScale/LMFlow.git) and [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca.git) , thanks!
 
 <div class="imgGroup" align="center">
